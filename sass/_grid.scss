@@ -1,0 +1,24 @@
+$gutter: 30px;
+*{
+  box-sizing: border-box;
+}
+
+.row{
+  &:after{
+    content:"";
+    clear:both;
+  }
+}
+
+[class*="col-"]{
+  min-height: 120px;
+  padding: 0 $gutter/2;
+  float: left;
+  background-clip: content-box;
+}
+
+@include cols(xs);
+
+@media (min-width: 768px){
+  @include cols(sm);
+}

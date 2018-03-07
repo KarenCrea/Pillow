@@ -1,0 +1,25 @@
+/*Grid*/
+@mixin cols($device: xs) {
+  .col-#{$device}-1{ width: calc((100% / 12)*1) }
+  .col-#{$device}-2{ width: calc((100% / 12)*2) }
+  .col-#{$device}-3{ width: calc((100% / 12)*3) }
+  .col-#{$device}-4{ width: calc((100% / 12)*4) }
+  .col-#{$device}-5{ width: calc((100% / 12)*5) }
+  .col-#{$device}-6{ width: calc((100% / 12)*6) }
+  .col-#{$device}-7{ width: calc((100% / 12)*7) }
+  .col-#{$device}-8{ width: calc((100% / 12)*8) }
+  .col-#{$device}-9{ width: calc((100% / 12)*9) }
+  .col-#{$device}-10{ width: calc((100% / 12)*10) }
+  .col-#{$device}-11{ width: calc((100% / 12)*11) }
+  .col-#{$device}-12{ width: calc((100% / 12)*12) }
+}
+
+
+/*MIXIN RESPONSIVE */
+
+@mixin respond-to($media) {
+    @media only screen and #{$media} {
+        @content;
+    }
+}
+

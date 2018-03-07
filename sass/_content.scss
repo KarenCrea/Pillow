@@ -1,0 +1,46 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.content{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+#carrousel{
+    height: 600px;
+    background-image: url(asset/img/women.jpg);
+    background-repeat: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#collections{
+    width: 100%;
+    .man_jacket{
+        background-image:url(asset/img/man_jacket.jpg);
+        background-size: cover;
+        height: 580px;
+    }
+    
+    .women_shoes{
+        background-image:url(asset/img/women_shoes.jpg);
+        height: 280px;
+        background-size: 110%;
+    }
+    
+    .bag{
+        background-image:url(asset/img/bag.jpg);
+        background-size: cover;
+        height: 280px;
+    }
+    
+    .glasses{
+        background-image:url(asset/img/glasses.jpg);
+        background-size: contain;
+        height: 280px;
+    }
+}
