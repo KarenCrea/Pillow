@@ -8,11 +8,10 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
+header{
+    @include border;
+    margin-bottom: 4%;
+    margin-top: 2%;
 }
 
 
@@ -25,7 +24,6 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
 }
 
 .navbar-buttons {
@@ -67,7 +65,6 @@ html, body {
 .overlay.open {
   opacity: 1;
   visibility: visible;
-  height: 100%;
 }
 
 .overlay.open li {
@@ -148,7 +145,8 @@ button:focus {
 
 .open-menu{
     position: relative;
-    left: 90%;
+    left: 125%;
+    @include respond-to($phone){left: 100%;}
 }
 
 .open-menu,
@@ -200,3 +198,17 @@ button:focus {
     font-size: 20px;
   }
 }
+
+
+header > p{
+    width: 70%;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 0;
+    @include respond-to($phone){font-size: 0.8em;}
+}
+
+p img{
+        width: 60%;
+    }
+

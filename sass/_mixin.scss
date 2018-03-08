@@ -23,3 +23,25 @@
     }
 }
 
+
+/*MIXIN STYLE */
+@mixin border{
+    border-bottom-style: double;
+    border-bottom-color: $color-lightgrey;
+}
+
+@mixin rotation{
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@mixin rotation90{
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}

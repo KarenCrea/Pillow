@@ -23,13 +23,20 @@ $container-max-widths: (
   xl: 1140px
 );
 
+//COLOR
+$color-lightgrey: #dedede;
+$color-grey: #636363;
+$color-blackgrey: #3d3d3d;
+$color-blackblack: #212121;
+$color-font: #3d3d3d;
+
 //FONT
 $font-RobotoSlab: 'Roboto Slab', serif;
 $font-Raleway: 'Raleway', sans-serif;
 
 //MEDIAA QUERIES 
-$phone : '(max-width: 767px)';
-$tablet-portrait: '(max-width: 767px)';
+$phone : '(max-width:767px)';
+$tablet-portrait: '(min-width: 767px)';
 $tablet-landscape: '(min-width: 768px) and (max-width: 979px)';
 $large-desktop: '(min-width: 1200px)';
 $non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';

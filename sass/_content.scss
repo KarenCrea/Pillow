@@ -2,6 +2,9 @@ html,
 body{
     width: 100%;
     height: 100%;
+    font-family: $font-RobotoSlab;
+    -webkit-font-smoothing: antialiased;
+    color: $color-blackgrey;
 }
 
 .content{
@@ -9,6 +12,33 @@ body{
     margin: 0 auto;
 }
 
+#newsletter p,
+#productSection h3,
+#productSection > p,
+#blog h3,
+#blog_deco,
+footer .social,
+footer p{text-align: center}
+
+#newsletter h3,
+#productSection h3,
+#blog h3{
+    font-size:1.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1;
+}
+
+section{position: relative;}
+
+a{text-decoration: none;}
+
+.delete{
+    @include respond-to($phone){display: none;}
+}
+
+/*-------------Carrousel------------*/
+/*-----------------------------*/
 
 #carrousel{
     height: 600px;
@@ -16,31 +46,292 @@ body{
     background-repeat: none;
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    @include respond-to($phone){
+        text-align: left;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        background-size: 130%;
+        background-position:50% ;
+        height: 360px;
+    }
+    
+    svg:not(:root).svg-inline--fa{position: absolute;}
+    .fa-arrow-left{
+        left: -2%;
+        @include respond-to($phone){left: 0%;}
+    }
+    
+    .fa-arrow-right{
+        right: -2%;
+        @include respond-to($phone){right: 0%;}
+    }
+    .fa-arrow-right,
+    .fa-arrow-left{
+        top: 45%;
+        @include respond-to($phone){top: 0%;}
+    }
+    
+    #text-slide{
+        top: 50%;
+        text-transform: uppercase;
+        
+        @include respond-to($phone){
+            left: 40%;
+            top: 0%;
+        }
+        
+    h1{font-size: 2.1em; }
+    
+    .t1{display: flex;}
+    
+    a h2{
+        font-size: 0.7em;
+        color: $color-grey;
+        font-weight: 400;
+        border: 2px solid $color-grey;
+        padding: 15px;
+        width: 30%;
+        text-align: center;
+        @include respond-to($phone){
+            left: 55%;
+            position: relative;
+            width: 40%;
+            }
+        }    
+        
+    }
+    
+    
+    
 }
+
+/*-------------Collection------------*/
+/*-----------------------------*/
 
 #collections{
     width: 100%;
+    h1{font-size: 1.1em;}
+    
     .man_jacket{
         background-image:url(asset/img/man_jacket.jpg);
         background-size: cover;
         height: 580px;
+        @include respond-to($phone){height: 340px;}
     }
     
     .women_shoes{
         background-image:url(asset/img/women_shoes.jpg);
         height: 280px;
         background-size: 110%;
+        margin-bottom: 3%;
+        @include respond-to($phone){height: 340px; margin-top: 5%;}
     }
     
     .bag{
         background-image:url(asset/img/bag.jpg);
         background-size: cover;
         height: 280px;
+        @include respond-to($phone){height: 340px;}
     }
     
     .glasses{
         background-image:url(asset/img/glasses.jpg);
         background-size: contain;
         height: 280px;
+        @include respond-to($phone){height: 340px;}
+    }
+    
+    .text_collection{
+        text-transform: uppercase;
+        font-size: 0.8em;
+        font-weight: 700;
+        padding: 2% 5%;
+        
+        a{
+            font-size: 0.8em;
+            font-weight: 400;
+            color: $color-grey;
+            text-transform: capitalize;
+            float: left;
+            margin-right: 10px;
+        }
     }
 }
+
+/*-------------Newsletter------------*/
+/*-----------------------------*/
+#newsletter{
+    text-align: center;
+    @include border;
+    clear: both;
+    padding-top: 5%;
+    input{
+        width: 25%;
+        padding: 15px;
+        color: $color-lightgrey;
+        text-transform: capitalize;
+        margin: 3% 0 5% 0;
+    }
+    
+    svg:not(:root).svg-inline--fa {
+        position: relative;
+        left: -50px;
+        color: $color-grey;
+    }
+    
+    .plus2,
+    .plus1{
+        width: 10px;
+        height: 3px;
+        background: $color-grey;
+    }
+    
+    .plus2{
+        @include rotation90;
+        position: relative;
+        top:-3px;
+    }
+}
+
+/*-------------Product------------*/
+/*-----------------------------*/
+
+#productSection{
+    height: 55%;
+    @include border;
+    margin-top: 4% ;
+    
+    > p {
+        margin-bottom: 5%;
+    }
+    
+    .textUnder_product{
+        font-size: 0.8em;
+        h4{
+            width: 50%;
+            margin: 0;
+            float: left;    
+        }
+        p{
+            position: relative;
+            top: -30px;
+            margin: 0;}
+    }
+    
+    .product{padding-bottom: 10%;}
+    
+}
+/*-------------blog------------*/
+/*-----------------------------*/
+
+#blog{
+    height: 40%;
+    padding-top: 5%;
+    @include border;
+    @include respond-to($phone){height: 30%;}
+    
+    .box01{
+        text-align: right;
+        padding-right: 3%;
+        @include respond-to($phone){
+            padding: 0;
+            text-align: center;
+        }
+        .line{
+            left: 90%;
+            position: relative;
+            @include respond-to($phone){display: none;}
+        }
+        
+        p { display: block;
+            @include respond-to($phone){display: none;}
+        }
+    }
+    
+    .box02{
+        text-align: left;
+        border-left: 2px dotted $color-lightgrey;
+        padding-left: 3%;
+        display: block;
+        @include respond-to($phone){display: none;}
+    }
+        
+    .text_blog{
+        h4{
+            font-size: 1.1em;
+            font-weight: 400;
+            line-height: 1.5em;
+        }
+        
+        .line{
+            width: 10%;
+            height: 2px;
+            background: $color-grey;
+        }
+        
+        p{
+            font-weight: 400;
+        }
+        
+        span{
+            font-weight: 700;
+            text-align: right;
+        }
+    }
+    
+    .blog_deco{
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3%;
+        @include respond-to($phone){display: none;}
+    }
+    
+    .carre02{
+        width: 10px;
+        height: 10px;
+        border: solid 2px $color-grey;
+        margin: 0 10px;
+        @include rotation;
+    }
+    
+    .carre01,
+    .carre03{
+        width: 5px;
+        height: 5px;
+        background: $color-lightgrey;
+        @include rotation;
+    }
+}
+
+
+/*-------------footer----------*/
+/*-----------------------------*/
+footer{
+    padding: 4% 0 5%;
+    .social{
+        color: $color-lightgrey;
+        margin-bottom: 2%;
+    }
+    
+    a{color: $color-blackblack;}
+    
+    :nth-child(2){margin: 0 10px;}
+    
+    p{line-height: 1.5em;}
+    
+    .delete{display: block ;
+        @include respond-to($phone){display: none;}
+    }
+}
+
+
+
+
+
+
+
