@@ -23,6 +23,9 @@
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+    
+    @include respond-to($phone){
+        padding: 1em;}
 }
 
 .man01 figure figcaption::before,
@@ -60,14 +63,14 @@
 
 .man01 a{
     text-decoration: none;
-    color:$color-blackgrey;
+    color:$color-grey;
 }
 
 .man01 figure p {
 	letter-spacing: 1px;
 	font-size: 0.75em;
     padding: 8% 5%;
-    border: 1px solid $color-blackgrey;
+    border: 1px solid $color-lightgrey;
     margin-bottom: 10px;
 }
 
@@ -82,7 +85,7 @@ figure.effect-chico img {
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: scale(1.12);
-	transform: scale(1.12);
+	transform: scale(1.12); 
 }
 
 figure.effect-chico:hover img {
@@ -101,6 +104,14 @@ figure.effect-chico figcaption::before {
 	content: '';
 	-webkit-transform: scale(1.1);
 	transform: scale(1.1);
+    
+     @include respond-to($phone){   
+        top: 10px;
+        right: 10px;
+        bottom: 10px;
+        left: 10px;
+    }
+    
 }
 
 figure.effect-chico figcaption::before,
@@ -121,6 +132,9 @@ figure.effect-chico p {
 	transform: scale(1.5);
     margin-bottom: 10px;
 }
+
+
+figure.effect-chico p:hover{background-color: $color-lightgrey;}
 
 figure.effect-chico .pad {
 	padding: 15% 5% 0 ;
@@ -149,3 +163,5 @@ figure p{
 		width: 100%;
 	}
 }
+
+

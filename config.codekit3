@@ -35899,6 +35899,23 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-brands.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-brands.css.map",
+		"oF": 0
+		},
 	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-brands.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -35911,6 +35928,23 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-regular-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-regular.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-regular.css.map",
+		"oF": 0
 		},
 	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-regular.scss": {
 		"aP": 0,
@@ -35925,6 +35959,23 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-solid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-solid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-solid.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-solid.css.map",
+		"oF": 0
+		},
 	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fa-solid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -35937,6 +35988,23 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fontawesome.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fontawesome.css.map",
+		"oF": 0
 		},
 	"\/asset\/fontawesome\/advanced-options\/use-with-node-js\/fontawesome-free-webfonts\/scss\/fontawesome.scss": {
 		"aP": 0,
@@ -36849,6 +36917,23 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-brands.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-brands.css.map",
+		"oF": 0
+		},
 	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-brands.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -36861,6 +36946,23 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-regular-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-regular.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-regular.css.map",
+		"oF": 0
 		},
 	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-regular.scss": {
 		"aP": 0,
@@ -36875,6 +36977,23 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-solid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-solid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-solid.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-solid.css.map",
+		"oF": 0
+		},
 	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fa-solid.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -36887,6 +37006,23 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fontawesome.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/asset\/fontawesome\/web-fonts-with-css\/scss\/fontawesome.css.map",
+		"oF": 0
 		},
 	"\/asset\/fontawesome\/web-fonts-with-css\/scss\/fontawesome.scss": {
 		"aP": 0,
@@ -37025,9 +37161,20 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/asset\/icon\/P.png": {
+		"ft": 32768,
+		"iS": 800,
+		"oA": 0,
+		"oAP": "\/asset\/icon\/P.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/asset\/img\/bag.jpg": {
 		"ft": 16384,
-		"iS": 35286,
+		"iS": 17708,
 		"oA": 0,
 		"oAP": "\/asset\/img\/bag.jpg",
 		"oF": 0,
@@ -37037,7 +37184,7 @@
 		},
 	"\/asset\/img\/glasses.jpg": {
 		"ft": 16384,
-		"iS": 20818,
+		"iS": 6142,
 		"oA": 0,
 		"oAP": "\/asset\/img\/glasses.jpg",
 		"oF": 0,
@@ -37047,7 +37194,7 @@
 		},
 	"\/asset\/img\/logo.png": {
 		"ft": 32768,
-		"iS": 3591,
+		"iS": 1453,
 		"oA": 0,
 		"oAP": "\/asset\/img\/logo.png",
 		"oF": 0,
@@ -37058,7 +37205,7 @@
 		},
 	"\/asset\/img\/man01.jpg": {
 		"ft": 16384,
-		"iS": 43172,
+		"iS": 21802,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man01.jpg",
 		"oF": 0,
@@ -37068,7 +37215,7 @@
 		},
 	"\/asset\/img\/man02.jpg": {
 		"ft": 16384,
-		"iS": 52126,
+		"iS": 26083,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man02.jpg",
 		"oF": 0,
@@ -37078,7 +37225,7 @@
 		},
 	"\/asset\/img\/man03.jpg": {
 		"ft": 16384,
-		"iS": 44792,
+		"iS": 21400,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man03.jpg",
 		"oF": 0,
@@ -37088,7 +37235,7 @@
 		},
 	"\/asset\/img\/man04.jpg": {
 		"ft": 16384,
-		"iS": 57947,
+		"iS": 29266,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man04.jpg",
 		"oF": 0,
@@ -37098,7 +37245,7 @@
 		},
 	"\/asset\/img\/man_jacket.jpg": {
 		"ft": 16384,
-		"iS": 142648,
+		"iS": 33449,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man_jacket.jpg",
 		"oF": 0,
@@ -37108,7 +37255,7 @@
 		},
 	"\/asset\/img\/women.jpg": {
 		"ft": 16384,
-		"iS": 199157,
+		"iS": 36462,
 		"oA": 0,
 		"oAP": "\/asset\/img\/women.jpg",
 		"oF": 0,
@@ -37118,7 +37265,7 @@
 		},
 	"\/asset\/img\/women_shoes.jpg": {
 		"ft": 16384,
-		"iS": 75363,
+		"iS": 40500,
 		"oA": 0,
 		"oAP": "\/asset\/img\/women_shoes.jpg",
 		"oF": 0,
@@ -37217,6 +37364,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/_logo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/_logo.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

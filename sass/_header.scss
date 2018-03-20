@@ -12,6 +12,8 @@ header{
     @include border;
     margin-bottom: 4%;
     margin-top: 2%;
+    @include respond-to($phone){padding: 0 10px;}
+    @include respond-to($TabP){padding: 0 10px;}
 }
 
 
@@ -24,6 +26,9 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+    @include respond-to($phone){
+        top: -1%;
+        position: absolute;}
 }
 
 .navbar-buttons {
@@ -32,6 +37,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 /* Sing In Button */
@@ -57,6 +63,7 @@ header{
   width: 100%;
   height: 100%;
   opacity: 0;
+    z-index: 1000000;
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
@@ -146,7 +153,9 @@ button:focus {
 .open-menu{
     position: relative;
     left: 125%;
-    @include respond-to($phone){left: 100%;}
+    @include respond-to($phone){
+        left: 70%;
+    }
 }
 
 .open-menu,
@@ -205,10 +214,31 @@ header > p{
     font-size: 1.5em;
     line-height: 1.5em;
     margin-bottom: 0;
-    @include respond-to($phone){font-size: 0.8em;}
+    @include respond-to($phone){
+        font-size: 0.8em;
+        width: 100%;
+        padding: 10% 15%;
+    }
 }
 
-p img{
-        width: 60%;
-    }
+p img{width: 65%;}
+
+.close-menu{
+    position: relative;
+    left: 80%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 

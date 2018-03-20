@@ -10,7 +10,14 @@
     </head>
     <body class="content">
        <header>
-           <img class="logo" src="asset/img/logo.png">
+        <div class="ttLogo">
+             <div class="logoRes">
+                 <p class="lettre">P</p>
+                 <div class="triangle"></div>
+             </div>
+             <p class="pillow delete">pillow</p>
+             <p class="woo delete">Free Woocommerce WordPress Theme</p>
+        </div>
            <p>Ut at fringilla augue, eget dapibus diam. Duis eget malesuada metus. Donec fringilla suscipit efficitur. Suspendisse sit amet fringilla leo. Duis eu odio ipsum.</p>
             <!-- Navbar -->
             <div class="navbar">
@@ -18,7 +25,7 @@
                     <div class="navbar-buttons">
                         <span>
                            <p class="open-menu">
-                               <img src="asset/icon/open.jpg">
+                               <img src="asset/icon/open.jpg" alt="iconopen">
                             </p><!-- /.open-menu -->
                         </span>
                     </div><!-- /.navbar-buttons -->
@@ -27,8 +34,7 @@
             <!-- Overlay Navigation Menu -->
             <div class="overlay">
                  <li>
-                   <p class="close-menu">
-                   </p>
+                   <p class="close-menu">CLOSE</p>
                 </li>
                 <nav class="overlay-menu">
                     <ul>
@@ -57,14 +63,14 @@
         </div>
         
         <!----COLLECTION------------------------------------------------------------>
+        <div class="t1">
+                <h1>Featured Collections</h1>
+                <a href="#">view all</a>
+           </div>
+        
         <section id="collections">
            <!-- image en background-->
-           <div class="t1">
-               <a href="#">view all</a>
-                <h1>Featured Collections</h1>
-           </div>
-           
-            <div class="col-xs-12 col-sm-6">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
                 <div class="man_jacket">
                     <div class="text_collection">
                         <h2>man's jacket</h2>
@@ -74,7 +80,7 @@
                 </div><!-- /man_jacket-->
             </div>
             
-            <div class="col-xs-12 col-sm-6"> 
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6"> 
                 <div class="women_shoes">
                      <div class="text_collection">
                         <h2>women's shoes</h2>
@@ -84,7 +90,7 @@
                 </div><!-- /women_shoes-->
             </div><!-- /col6-->
             
-            <div class="col-xs-6 col-sm-3">  
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">  
                 <div class="bag">
                     <div class="text_collection">
                         <h2>backpack</h2>
@@ -94,7 +100,7 @@
                 </div><!-- /bag-->
             </div><!-- /col3-->
             
-            <div class="col-xs-6 col-sm-3">
+            <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3">
                 <div class="glasses">
                     <div class="text_collection">
                         <h2>glasses</h2>
@@ -119,16 +125,17 @@
         <section id="productSection">
             <h3>popular products</h3>
             <p>Duis eget malesuada metus. Donec fringilla suscipit efficitur.</p>
+            <p class="seeAll deleteTabL deletedesk hoverGrey"><a href="#">See All Products </a></p>
             
             <div class="product">
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 border">
                     <article class="man01">
                         <figure class="effect-chico">
-						    <img src="asset/img/man01.jpg">
+						    <img src="asset/img/man01.jpg" alt="man1">
 						    <figcaption>
 				                <div class="pad">
                                     <p class="delete"><a href="#">add to cart</a></p>
-                                    <p class="delete"><a href="#">quick view</a></p>
+                                    <p><a href="#">quick view</a></p>
                                     <p><a href="#">show details</a></p>
 							    </div><!-- /pad-->
 						    </figcaption>			
@@ -147,19 +154,19 @@
                     </article><!-- /man01-->
                 </div><!-- /col3-->
                 
-                <div class="col-xs-6 col-sm-3">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 border">
                     <article class="man01 ">
                         <figure class="effect-chico">
-						    <img src="asset/img/man02.jpg">
+						    <img src="asset/img/man02.jpg" alt="man2">
 						    <figcaption>
 				                <div class="pad">
-                                    <p class="delete"><a href="#">add to cart</a></p>
-                                    <p class="delete"><a href="#">quick view</a></p>
-                                    <p><a href="#">show details</a></p>
+                                    <p class="delete hoverGrey"><a href="#">add to cart</a></p>
+                                    <p class="hoverGrey"><a  href="#">quick view</a></p>
+                                    <p class="hoverGrey"><a href="#">show details</a></p>
 							    </div><!-- /pad-->
 						    </figcaption>			
 					    </figure>
-                        <div class="textUnder_product delete">
+                        <div class="textUnder_product delete ">
                             <h4>Check T-shirt</h4>
                             <div class="rating">
                                 <a href="#5" title="Give 5 stars"><i class="fas fa-star fa-sm"></i></a>
@@ -173,10 +180,10 @@
                     </article><!-- /man01-->
                 </div><!-- /col3-->
                 
-                <div class="col-xs-3 delete">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 delete border">
                     <article class="man01">
                         <figure class="effect-chico">
-						    <img src="asset/img/man03.jpg">
+						    <img src="asset/img/man03.jpg" alt="man3">
 						    <figcaption>
 				                <div class="pad">
                                     <p><a href="#">add to cart</a></p>
@@ -199,10 +206,10 @@
                     </article><!-- /man01-->
                 </div><!-- /col3-->
                 
-                <div class="col-xs-3 delete">
+                <div class="col-xs-6 col-sm-4 col-md-3 col-lg-3 delete deleteTabP border">
                     <article class="man01">
                         <figure class="effect-chico">
-						    <img src="asset/img/man04.jpg">
+						    <img src="asset/img/man04.jpg" alt="man4">
 						    <figcaption>
 				                <div class="pad">
                                     <p><a href="#">add to cart</a></p>
@@ -265,6 +272,7 @@
         </footer>
         
         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="js/nav.js"></script>
     </body>
 </html>

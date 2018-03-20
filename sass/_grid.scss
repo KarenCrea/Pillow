@@ -25,3 +25,11 @@ $gutter: 30px;
 @media (min-width: 768px){
   @include cols(sm);
 }
+
+@media (min-width: 992px){
+  @include cols(md);
+}
+
+@media (min-width: 1200px){
+  @include cols(lg);
+}
