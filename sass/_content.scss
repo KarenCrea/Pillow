@@ -171,6 +171,7 @@ a{text-decoration: none;}
         background-size: 110%;
         margin-bottom: 5%;
         position: relative;
+        @include respond-to($phone){margin: 4% 0;}
     }
         
     .bag{background-image:url(asset/img/bag.jpg);}
@@ -243,9 +244,7 @@ a{text-decoration: none;}
     margin-top: 4% ;
     
     
-    > p {
-        margin-bottom: 5%;
-    }
+    > p {margin-bottom: 5%;}
     
     .textUnder_product{
         font-size: 0.8em;

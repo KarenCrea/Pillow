@@ -9,225 +9,28 @@
 }
 
 header{
-    @include border;
     margin-bottom: 4%;
     margin-top: 2%;
-    @include respond-to($phone){padding: 0 10px;}
+    @include respond-to($phone){
+        padding: 0 10px;
+        padding-bottom: 48%;
+    }
     @include respond-to($TabP){padding: 0 10px;}
 }
-
-
-/*
----- Navbar
-*/
-.navbar {
-  height: 90px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-    @include respond-to($phone){
-        top: -1%;
-        position: absolute;}
-}
-
-.navbar-buttons {
-  position: relative;
-  width: 155px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-/* Sing In Button */
-.button {
-  background-color: rgba(44, 45, 47, 0.749);
-  width: 97px;
-  height: 30px;
-  font-size: 12px;
-  color: #fff;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-/*
----- Overlay
-*/
-.overlay {
-  position: fixed;
-  background: rgba(51, 55, 69, 0.80);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-    z-index: 1000000;
-  visibility: hidden;
-  transition: opacity .35s, visibility .35s, height .35s;
-  overflow: hidden;
-}
-
-.overlay.open {
-  opacity: 1;
-  visibility: visible;
-}
-
-.overlay.open li {
-  animation: fadeInRight .5s ease forwards;
-  animation-delay: .35s;
-}
-.overlay.open li:nth-of-type(2) {
-  animation-delay: .4s;
-}
-.overlay.open li:nth-of-type(3) {
-  animation-delay: .45s;
-}
-.overlay.open li:nth-of-type(4) {
-  animation-delay: .50s;
-}
-
-/* Navigation Title */
-.overlay .nav-title {
-  font-size: 22px;
-  color: #fff;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-align: center;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  top: 8%;
-}
-
-.overlay nav {
-  position: relative;
-  height: 50%;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 50px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 40px;
-}
-.overlay ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 auto;
-  display: inline-block;
-  position: relative;
-  height: 100%;
-}
-.overlay ul li {
-  display: block;
-  position: relative;
-  opacity: 0;
-  margin-bottom: 60px;
-}
-.overlay ul li a {
-  display: block;
-  position: relative;
-  color: #FFF;
-  text-decoration: none;
-  overflow: hidden;
-}
-
-.overlay ul li a:hover,
-.overlay ul li a:focus,
-.overlay ul li a:active {
-  color: #ea2e49;
-}
-.overlay ul li a:hover:after,
-.overlay ul li a:focus:after,
-.overlay ul li a:active:after {
-  width: 100%;
-  background: #ea2e49;
-}
-
-button:focus {
-  outline: 0;
-}
-
-.open-menu{
-    position: relative;
-    left: 125%;
-    @include respond-to($phone){
-        left: 70%;
-    }
-}
-
-.open-menu,
-.close-menu,
-.button {
-  cursor: pointer;
-  transition: transform 0.30s;
-}
-.open-menu:hover,
-.close-menu:hover,
-.button:hover {
-  transform: scale(1.1);
-}
-
-.overlay ul li a:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 43.5%;
-  width: 0%;
-  transform: translateX(-50%);
-  height: 3px;
-  background: #FFF;
-  transition: .35s;
-}
-
-@keyframes fadeInRight {
-  0% {
-    opacity: 0;
-    left: 20%;
-  }
-  100% {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-/*
----- Responsive
-*/
-
-@media (max-width: 670px) {
-  .overlay nav {
-    font-size: 30px;
-  }
-}
-@media (max-width: 550px) {
-  .overlay nav {
-    font-size: 20px;
-  }
-}
-
 
 header > p{
     width: 70%;
     font-size: 1.5em;
     line-height: 1.5em;
-    margin-bottom: 0;
     @include respond-to($phone){
         font-size: 0.8em;
         width: 100%;
         padding: 10% 15%;
+        float: right;
     }
 }
 
-p img{width: 65%;}
 
-.close-menu{
-    position: relative;
-    left: 80%;
-    color: white;
-}
 
 
 
