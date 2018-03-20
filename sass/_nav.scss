@@ -9,6 +9,7 @@
   align-items: center;
   padding: 0 40px; 
     @include respond-to($phone){display: inherit;}
+    @include respond-to($TabP){display: inherit;}
 }
 
 .navbar-buttons {
@@ -37,7 +38,7 @@
 */
 .overlay {
   position: fixed;
-  background: rgba(51, 55, 69, 0.80);
+  background: rgba(255, 0, 0, 0.9);
   top: 0;
   left: 0;
   width: 100%;
@@ -92,6 +93,16 @@
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 40px;
+    
+   @include respond-to($TabP){
+       font-size: 1.7em;
+       letter-spacing: 5px;
+    }
+    
+    @include respond-to($phone){
+        font-size: 1.4em;
+        letter-spacing: 3px;
+    }
 }
 .overlay ul {
   list-style: none;
@@ -118,13 +129,13 @@
 .overlay ul li a:hover,
 .overlay ul li a:focus,
 .overlay ul li a:active {
-  color: #ea2e49;
+  color:white;
 }
 .overlay ul li a:hover:after,
 .overlay ul li a:focus:after,
 .overlay ul li a:active:after {
   width: 100%;
-  background: #ea2e49;
+  background: $color-grey;
 }
 
 button:focus {
@@ -163,21 +174,6 @@ button:focus {
   100% {
     opacity: 1;
     left: 0;
-  }
-}
-
-/*
----- Responsive
-*/
-
-@media (max-width: 670px) {
-  .overlay nav {
-    font-size: 30px;
-  }
-}
-@media (max-width: 550px) {
-  .overlay nav {
-    font-size: 20px;
   }
 }
 

@@ -811,14 +811,18 @@ header {
     /* line 11, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
     header {
       padding: 0 10px; } }
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* line 11, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
+    header {
+      padding: 0 10px; } }
 
-/* line 21, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
+/* line 22, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
 header > p {
   width: 70%;
   font-size: 1.5em;
   line-height: 1.5em; }
   @media only screen and (max-width: 768px) {
-    /* line 21, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
+    /* line 22, /Users/karentschanz/Sites/Pilow_v1/sass/_header.scss */
     header > p {
       font-size: 0.8em;
       width: 100%;

@@ -16,6 +16,7 @@ header{
         padding-bottom: 48%;
     }
     @include respond-to($TabP){padding: 0 10px;}
+    @include respond-to($TabL_Lap){padding: 0 10px;}
 }
 
 header > p{
