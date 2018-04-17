@@ -1,13 +1,14 @@
 html,
-body{
+body {
     width: 100%;
     height: 100%;
     font-family: $font-RobotoSlab;
     -webkit-font-smoothing: antialiased;
     color: $color-blackgrey;
+    overflow-x: hidden;
 }
 
-.content{
+.content {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0;
@@ -20,47 +21,78 @@ body{
 #blog h3,
 #blog_deco,
 footer .social,
-footer p{text-align: center}
+footer p {
+    text-align: center
+}
 
 #newsletter h3,
 #productSection h3,
-#blog h3{
-    font-size:1.2em;
+#blog h3 {
+    font-size: 1.2em;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 0.1;
 }
 
-section{position: relative;}
+section {
+    position: relative;
+}
 
-a{text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
-.border{@include border;}
+.border {
+    @include border;
+}
 
 
 /*-------------Display None Res------------*/
-.delete{@include respond-to($phone){display: none;}}
 
-.deleteTabP{@include respond-to($TabP){display: none;}}
+.delete {
+    @include respond-to($phone) {
+        display: none;
+    }
+}
 
-.deleteTabL{@include respond-to($TabL_Lap){display: none;}}
+.deleteTabP {
+    @include respond-to($TabP) {
+        display: none;
+    }
+}
 
-.deletedesk{@include respond-to($large-desktop){display: none;}}
+.disTabP {
+    @include respond-to($TabP) {
+        display: block;
+    }
+}
+
+.deleteTabL {
+    @include respond-to($TabL_Lap) {
+        display: none;
+    }
+}
+
+.deletedesk {
+    @include respond-to($large-desktop) {
+        display: none;
+    }
+}
 
 
 /*-----------------------------*/
 
-.t1{ 
+.t1 {
     display: inline-flex;
     align-items: center;
     width: 100%;
     justify-content: space-between;
     padding: 0px 15px;
-    h1{
+    h1 {
         font-size: 1.2em;
     }
-    
-    a{
+
+    a {
         color: $color-grey;
         text-transform: capitalize;
         font-style: italic;
@@ -70,9 +102,10 @@ a{text-decoration: none;}
 }
 
 /*-------------Carrousel------------*/
+
 /*-----------------------------*/
 
-#carrousel{
+#carrousel {
     height: 600px;
     background-image: url(asset/img/women.jpg);
     background-repeat: none;
@@ -81,309 +114,434 @@ a{text-decoration: none;}
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    @include respond-to($phone){
+    @include respond-to($phone) {
         text-align: left;
         flex-direction: row-reverse;
         align-items: flex-start;
         background-size: cover;
-        background-position:40% ;
+        background-position: 40%;
         height: 360px;
     }
-    
-    svg:not(:root).svg-inline--fa{position: absolute;}
-    .fa-arrow-left{
-        left: -2%;
-        @include respond-to($phone){left: 0%;}
+
+    svg:not(:root).svg-inline--fa {
+        position: absolute;
     }
-    
-    .fa-arrow-right{
+    .fa-arrow-left {
+        left: -2%;
+        @include respond-to($phone) {
+            left: 85%;
+        }
+        @include respond-to($TabL_Lap) {
+            left: 5%;
+        }
+
+    }
+
+    .fa-arrow-right {
         right: -2%;
-        @include respond-to($phone){right: 0%;}
+        @include respond-to($phone) {
+            right: 5%;
+        }
+        @include respond-to($TabL_Lap) {
+            right: 6%;
+        }
+
     }
     .fa-arrow-right,
-    .fa-arrow-left{
+    .fa-arrow-left {
         top: 45%;
-        @include respond-to($phone){top: 50%;}
+        @include respond-to($phone) {
+            top: 90%;
+        }
     }
-    
-    #text-slide{
+
+    #text-slide {
         top: 50%;
         text-transform: uppercase;
-        
-        @include respond-to($phone){
+
+        @include respond-to($phone) {
             left: 40%;
             top: 0%;
+            padding-top: 5%;
         }
-        
-    h1{ font-size: 2.1em;
-         @include respond-to($phone){
-            font-size: 1.4em;
+
+        h1 {
+            font-size: 2.1em;
+            @include respond-to($phone) {
+                font-size: 1.4em;
             }
-        }   
-    
-    a h2{
-        font-size: 0.7em;
-        color: $color-grey;
-        font-weight: 400;
-        border: 2px solid $color-grey;
-        padding: 15px;
-        width: 30%;
-        text-align: center;
-        
-        &:hover{background: $color-grey; color: white;}
-        
-        @include respond-to($phone){
-            font-size: 0.5em;
-            left: 50%;
-            position: relative;
-            width: 45%;
-            padding: 10px;
+        }
+
+        a h2 {
+            font-size: 0.7em;
+            color: $color-grey;
+            font-weight: 400;
+            border: 2px solid $color-grey;
+            padding: 15px;
+            width: 30%;
+            text-align: center;
+            @include background;
+
+
+            &:hover {
+                background: $color-grey;
+                color: white;
             }
-        }    
-        
+
+            @include respond-to($phone) {
+                font-size: 0.7em;
+                left: 0%;
+                position: relative;
+                width: 80%;
+                padding: 15px;
+
+            }
+        }
+
     }
-    
-    
-    
+
+
+
 }
 
 /*-------------Collection------------*/
+
 /*-----------------------------*/
 
-#collections{
+#collections {
     width: 100%;
-    
+
+
     .bag,
     .glasses,
-    .man_jacket{
+    .man_jacket {
         background-size: 100%;
         padding-top: 100%;
         position: relative;
-    }
-        
-    .man_jacket{
-        background-image:url(asset/img/man_jacket.jpg);
+        @include box-shadow;
     }
 
-    .women_shoes{
-        background-image:url(asset/img/women_shoes.jpg);
+    .bag:hover,
+    .glasses:hover,
+    .man_jacket:hover,
+    .women_shoes:hover {
+        box-shadow: -9px 10px 37px 0px rgba(161, 159, 161, 0.5);
+    }
+
+    .man_jacket {
+        background-image: url(asset/img/man_jacket.jpg);
+    }
+
+    .women_shoes {
+        background-image: url(asset/img/women_shoes.jpg);
         padding-top: 48.2456%;
         background-size: 110%;
         margin-bottom: 5%;
         position: relative;
-        @include respond-to($phone){margin: 4% 0;}
+        @include box-shadow;
+        @include respond-to($phone) {
+            margin: 4% 0;
+        }
     }
-        
-    .bag{background-image:url(asset/img/bag.jpg);}
-    
-    .glasses{background-image:url(asset/img/glasses.jpg);}
-    
-    .text_collection{
+
+    .bag {
+        background-image: url(asset/img/bag.jpg);
+    }
+
+    .glasses {
+        background-image: url(asset/img/glasses.jpg);
+    }
+
+    .text_collection {
         text-transform: uppercase;
         font-size: 0.8em;
         font-weight: 700;
         padding: 2% 3%;
         position: absolute;
         top: 0;
-        
-        @include respond-to($phone){text-align: left;}
-        
-        a{
-            font-size: 0.8em;
+
+        @include respond-to($phone) {
+            text-align: left;
+        }
+
+        .trans_fleche {
+            position: relative;
+            left: 0px;
+            transition-property: left;
+            transition-duration: 1s;
+            transition-delay: 0s;
+        }
+
+        .trans_fleche:hover {
+            left: 20px;
+        }
+
+        a {
+            font-size: 1em;
             font-weight: 400;
             color: $color-grey;
             text-transform: capitalize;
             float: left;
             margin-right: 10px;
+
         }
+
     }
 }
 
 /*-------------Newsletter------------*/
+
 /*-----------------------------*/
-#newsletter{
+
+#newsletter {
     text-align: center;
     @include border;
     clear: both;
     padding-top: 5%;
-    
-    input{
+
+    input {
         width: 25%;
         padding: 15px;
         color: $color-lightgrey;
+        border: 2px solid $color-lightgrey;
         text-transform: capitalize;
         margin: 3% 0 5% 0;
-        @include respond-to($phone){width: 70%;}
+        @include respond-to($phone) {
+            width: 70%;
+        }
     }
-    
+
     svg:not(:root).svg-inline--fa {
         position: relative;
         left: -50px;
         color: $color-grey;
     }
-    
+
     .plus2,
-    .plus1{
+    .plus1 {
         width: 10px;
         height: 3px;
         background: $color-grey;
     }
-    
-    .plus2{
+
+    .plus2 {
         @include rotation90;
         position: relative;
-        top:-3px;
+        top: -3px;
     }
 }
 
 /*-------------Product------------*/
+
 /*-----------------------------*/
 
-#productSection{
+#productSection {
     height: 55%;
-    margin-top: 4% ;
-    
-    
-    > p {margin-bottom: 5%;}
-    
-    .textUnder_product{
+    margin-top: 4%;
+
+
+    > p {
+        margin-bottom: 5%;
+    }
+
+    .textUnder_product {
         font-size: 0.8em;
-        h4{
+        h4 {
             width: 50%;
             margin: 0;
-            float: left;    
+            float: left;
         }
-        p{
+        p {
             position: relative;
             top: -30px;
-            margin: 0;}
+            margin: 0;
+        }
     }
-    
-    p.seeAll{
-        margin:0 auto;
+
+    p.seeAll {
+        margin: 0 auto;
         padding: 5px;
         margin-bottom: 20px;
         width: 50%;
         height: 30px;
         border: 1px solid $color-lightgrey;
         font-size: 13px;
-        
-        a{color: $color-grey;}
-        
-    
-        &:hover{
+
+        a {
+            color: $color-grey;
+
+        }
+
+
+        &:hover {
             background-color: $color-lightgrey;
         }
     }
-    
+
 }
+
 /*-------------blog------------*/
+
 /*-----------------------------*/
 
-#blog{
-    height: 40%;
-    padding-top: 5%;
+#blog {
+    height: 25%;
     @include border;
-    @include respond-to($phone){height: 30%;}
-    
-    h3{
+    @include respond-to($phone) {
+        height: 30%;
+    }
+    @include respond-to($TabL_Lap) {
+        height: 40%;
+    }
+
+    h3 {
         text-align: center;
         width: 100%;
+
+        @include respond-to($TabL_Lap) {
+            padding-top: 50px;
+        }
+
     }
-    
-    .box01{
+
+    .box01 {
         text-align: right;
         padding-right: 3%;
-        @include respond-to($phone){
+        @include respond-to($phone) {
             padding: 0;
             text-align: center;
         }
-        .line{
+        @include respond-to($TabP) {
+            padding: 0;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .line {
             left: 90%;
             position: relative;
-            @include respond-to($phone){display: none;}
+            @include respond-to($phone) {
+                display: none;
+            }
         }
-        
-        p { display: block;
-            @include respond-to($phone){display: none;}
+
+        p {
+            display: block;
+            @include respond-to($phone) {
+                display: none;
+            }
         }
     }
-    
-    .box02{
+
+    .box02 {
         text-align: left;
         border-left: 2px dotted $color-lightgrey;
         padding-left: 3%;
         display: block;
-        @include respond-to($phone){display: none;}
+        @include respond-to($phone) {
+            display: none;
+        }
     }
-        
-    .text_blog{
-        h4{
+
+    .text_blog {
+        h4 {
             font-size: 1.1em;
             font-weight: 400;
             line-height: 1.5em;
+            margin-top: 0;
         }
-        
-        .line{
+
+        .line {
             width: 10%;
             height: 2px;
             background: $color-grey;
         }
-        
-        p{
+
+        p {
             font-weight: 400;
         }
-        
-        span{
+
+        span {
             font-weight: 700;
             text-align: right;
         }
     }
-    
-    .blog_deco{
+
+    .blog_deco {
         width: 100%;
         display: inline-flex;
         justify-content: center;
         align-items: center;
         margin-top: 3%;
-        @include respond-to($phone){display: none;}
+        @include respond-to($phone) {
+            display: none;
+        }
     }
-    
-    .carre02{
+
+    .carre02 {
         width: 10px;
         height: 10px;
         border: solid 2px $color-grey;
         margin: 0 10px;
         @include rotation;
     }
-    
+
     .carre01,
-    .carre03{
+    .carre03 {
         width: 5px;
         height: 5px;
         background: $color-lightgrey;
         @include rotation;
     }
+
+    svg.fa-arrow-left {
+        left: 0%;
+        top: 50%;
+        position: absolute;
+
+        @include respond-to($phone) {
+            top: 60%;
+            left: 35%;
+        }
+    }
+
+    svg.fa-arrow-right {
+        position: absolute;
+        top: 50%;
+        left: 95%;
+        @include respond-to($phone) {
+            top: 60%;
+            left: 60%;
+        }
+    }
 }
 
 
 /*-------------footer----------*/
+
 /*-----------------------------*/
-footer{
+
+footer {
     padding: 4% 0 5%;
-    .social{
+    .social {
         color: $color-lightgrey;
         margin-bottom: 2%;
     }
-    
-    a{color: $color-blackblack;}
-    
-    :nth-child(2){margin: 0 10px;}
-    
-    p{line-height: 1.5em;}
-    
-    .delete{display: block ;
-        @include respond-to($phone){display: none;}
+
+    a {
+        color: $color-blackblack;
+        font-weight: bold;
+    }
+
+    :nth-child(2) {
+        margin: 0 10px;
+    }
+
+    p {
+        line-height: 1.5em;
+        @include respond-to($phone) {
+            padding-top: 10px;
+            font-size: 0.6em;
+        }
     }
 }
-

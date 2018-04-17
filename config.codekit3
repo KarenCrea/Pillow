@@ -7,7 +7,7 @@
 		"uuidString": "530864CB-4D15-48EB-B801-91818842A5AC"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26667",
 "files": {
 	"\/asset\/full-nav-menu\/app.js": {
 		"ft": 64,
@@ -22,6 +22,7 @@
 	"\/asset\/icon\/open.jpg": {
 		"ft": 16384,
 		"iS": 919,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/icon\/open.jpg",
 		"oF": 0,
@@ -43,6 +44,7 @@
 	"\/asset\/img\/bag.jpg": {
 		"ft": 16384,
 		"iS": 17708,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/bag.jpg",
 		"oF": 0,
@@ -53,6 +55,7 @@
 	"\/asset\/img\/glasses.jpg": {
 		"ft": 16384,
 		"iS": 6142,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/glasses.jpg",
 		"oF": 0,
@@ -74,6 +77,7 @@
 	"\/asset\/img\/man01.jpg": {
 		"ft": 16384,
 		"iS": 21802,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man01.jpg",
 		"oF": 0,
@@ -84,6 +88,7 @@
 	"\/asset\/img\/man02.jpg": {
 		"ft": 16384,
 		"iS": 26083,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man02.jpg",
 		"oF": 0,
@@ -94,6 +99,7 @@
 	"\/asset\/img\/man03.jpg": {
 		"ft": 16384,
 		"iS": 21400,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man03.jpg",
 		"oF": 0,
@@ -104,6 +110,7 @@
 	"\/asset\/img\/man04.jpg": {
 		"ft": 16384,
 		"iS": 29266,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man04.jpg",
 		"oF": 0,
@@ -114,6 +121,7 @@
 	"\/asset\/img\/man_jacket.jpg": {
 		"ft": 16384,
 		"iS": 33449,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/man_jacket.jpg",
 		"oF": 0,
@@ -124,6 +132,7 @@
 	"\/asset\/img\/women.jpg": {
 		"ft": 16384,
 		"iS": 36462,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/women.jpg",
 		"oF": 0,
@@ -134,6 +143,7 @@
 	"\/asset\/img\/women_shoes.jpg": {
 		"ft": 16384,
 		"iS": 40500,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/asset\/img\/women_shoes.jpg",
 		"oF": 0,
@@ -370,7 +380,8 @@
 	"creationDate": 542104206,
 	"displayValue": "Pilow_v1",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-dunnoGirl"
+	"iconImageName": "meme-dunnoGirl",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2173,6 +2184,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

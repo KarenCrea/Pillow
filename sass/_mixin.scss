@@ -1,17 +1,42 @@
 /*Grid*/
+
 @mixin cols($device: xs) {
-  .col-#{$device}-1{ width: calc((100% / 12)*1) }
-  .col-#{$device}-2{ width: calc((100% / 12)*2) }
-  .col-#{$device}-3{ width: calc((100% / 12)*3) }
-  .col-#{$device}-4{ width: calc((100% / 12)*4) }
-  .col-#{$device}-5{ width: calc((100% / 12)*5) }
-  .col-#{$device}-6{ width: calc((100% / 12)*6) }
-  .col-#{$device}-7{ width: calc((100% / 12)*7) }
-  .col-#{$device}-8{ width: calc((100% / 12)*8) }
-  .col-#{$device}-9{ width: calc((100% / 12)*9) }
-  .col-#{$device}-10{ width: calc((100% / 12)*10) }
-  .col-#{$device}-11{ width: calc((100% / 12)*11) }
-  .col-#{$device}-12{ width: calc((100% / 12)*12) }
+    .col-#{$device}-1 {
+        width: calc((100% / 12)*1)
+    }
+    .col-#{$device}-2 {
+        width: calc((100% / 12)*2)
+    }
+    .col-#{$device}-3 {
+        width: calc((100% / 12)*3)
+    }
+    .col-#{$device}-4 {
+        width: calc((100% / 12)*4)
+    }
+    .col-#{$device}-5 {
+        width: calc((100% / 12)*5)
+    }
+    .col-#{$device}-6 {
+        width: calc((100% / 12)*6)
+    }
+    .col-#{$device}-7 {
+        width: calc((100% / 12)*7)
+    }
+    .col-#{$device}-8 {
+        width: calc((100% / 12)*8)
+    }
+    .col-#{$device}-9 {
+        width: calc((100% / 12)*9)
+    }
+    .col-#{$device}-10 {
+        width: calc((100% / 12)*10)
+    }
+    .col-#{$device}-11 {
+        width: calc((100% / 12)*11)
+    }
+    .col-#{$device}-12 {
+        width: calc((100% / 12)*12)
+    }
 }
 
 
@@ -25,12 +50,13 @@
 
 
 /*MIXIN STYLE */
-@mixin border{
+
+@mixin border {
     border-bottom-style: double;
     border-bottom-color: $color-lightgrey;
 }
 
-@mixin rotation{
+@mixin rotation {
     -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     -o-transform: rotate(45deg);
@@ -38,10 +64,24 @@
     transform: rotate(45deg);
 }
 
-@mixin rotation90{
+@mixin rotation90 {
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -o-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
+}
+
+@mixin box-shadow {
+    box-shadow: -9px 10px 37px 0px transparent;
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-delay: 0s;
+}
+
+@mixin background {
+    background: transparent;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-delay: 0s;
 }

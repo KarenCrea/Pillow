@@ -23,10 +23,11 @@ header > p{
     width: 70%;
     font-size: 1.5em;
     line-height: 1.5em;
+    margin-top: 40px;
     @include respond-to($phone){
         font-size: 0.8em;
         width: 100%;
-        padding: 10% 15%;
+        padding: 10% 10% 5%;
         float: right;
     }
 }
