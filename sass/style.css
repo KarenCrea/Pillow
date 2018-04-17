@@ -884,44 +884,48 @@ a {
   border-bottom-style: double;
   border-bottom-color: #dedede; }
 
+/* line 49, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+svg {
+  color: black; }
+
 /*-------------Display None Res------------*/
 @media only screen and (max-width: 768px) {
-  /* line 52, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 56, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .delete {
     display: none; } }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 58, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 62, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .deleteTabP {
     display: none; } }
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-  /* line 64, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 68, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .disTabP {
     display: block; } }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
-  /* line 70, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 74, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .deleteTabL {
     display: none; } }
 
 @media only screen and (min-width: 1200px) {
-  /* line 76, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 80, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .deletedesk {
     display: none; } }
 
 /*-----------------------------*/
-/* line 85, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 89, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 .t1 {
   display: inline-flex;
   align-items: center;
   width: 100%;
   justify-content: space-between;
   padding: 0px 15px; }
-  /* line 91, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 95, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .t1 h1 {
     font-size: 1.2em; }
-  /* line 95, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 99, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   .t1 a {
     color: #636363;
     text-transform: capitalize;
@@ -931,7 +935,7 @@ a {
 
 /*-------------Carrousel------------*/
 /*-----------------------------*/
-/* line 108, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 112, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 #carrousel {
   height: 600px;
   background-image: url(asset/img/women.jpg);
@@ -942,7 +946,7 @@ a {
   flex-direction: row-reverse;
   align-items: center; }
   @media only screen and (max-width: 768px) {
-    /* line 108, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 112, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #carrousel {
       text-align: left;
       flex-direction: row-reverse;
@@ -950,58 +954,58 @@ a {
       background-size: cover;
       background-position: 40%;
       height: 360px; } }
-  /* line 126, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 130, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #carrousel svg:not(:root).svg-inline--fa {
     position: absolute; }
-  /* line 129, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 133, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #carrousel .fa-arrow-left {
     left: -2%; }
     @media only screen and (max-width: 768px) {
-      /* line 129, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 133, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel .fa-arrow-left {
         left: 85%; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      /* line 129, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 133, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel .fa-arrow-left {
         left: 5%; } }
-  /* line 140, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 144, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #carrousel .fa-arrow-right {
     right: -2%; }
     @media only screen and (max-width: 768px) {
-      /* line 140, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 144, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel .fa-arrow-right {
         right: 5%; } }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      /* line 140, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 144, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel .fa-arrow-right {
         right: 6%; } }
-  /* line 150, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 154, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #carrousel .fa-arrow-right,
   #carrousel .fa-arrow-left {
     top: 45%; }
     @media only screen and (max-width: 768px) {
-      /* line 150, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 154, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel .fa-arrow-right,
       #carrousel .fa-arrow-left {
         top: 90%; } }
-  /* line 158, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 162, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #carrousel #text-slide {
     top: 50%;
     text-transform: uppercase; }
     @media only screen and (max-width: 768px) {
-      /* line 158, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 162, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel #text-slide {
         left: 40%;
         top: 0%;
         padding-top: 5%; } }
-    /* line 168, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 172, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #carrousel #text-slide h1 {
       font-size: 2.1em; }
       @media only screen and (max-width: 768px) {
-        /* line 168, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+        /* line 172, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
         #carrousel #text-slide h1 {
           font-size: 1.4em; } }
-    /* line 175, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 179, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #carrousel #text-slide a h2 {
       font-size: 0.7em;
       color: #636363;
@@ -1014,12 +1018,12 @@ a {
       transition-property: background;
       transition-duration: 1s;
       transition-delay: 0s; }
-      /* line 186, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 190, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #carrousel #text-slide a h2:hover {
         background: #636363;
         color: white; }
       @media only screen and (max-width: 768px) {
-        /* line 175, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+        /* line 179, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
         #carrousel #text-slide a h2 {
           font-size: 0.7em;
           left: 0%;
@@ -1029,10 +1033,10 @@ a {
 
 /*-------------Collection------------*/
 /*-----------------------------*/
-/* line 211, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 215, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 #collections {
   width: 100%; }
-  /* line 215, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 219, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .bag,
   #collections .glasses,
   #collections .man_jacket {
@@ -1043,16 +1047,16 @@ a {
     transition-property: box-shadow;
     transition-duration: 1s;
     transition-delay: 0s; }
-  /* line 224, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 228, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .bag:hover,
   #collections .glasses:hover,
   #collections .man_jacket:hover,
   #collections .women_shoes:hover {
     box-shadow: -9px 10px 37px 0px rgba(161, 159, 161, 0.5); }
-  /* line 231, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 235, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .man_jacket {
     background-image: url(asset/img/man_jacket.jpg); }
-  /* line 235, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 239, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .women_shoes {
     background-image: url(asset/img/women_shoes.jpg);
     padding-top: 48.2456%;
@@ -1064,16 +1068,16 @@ a {
     transition-duration: 1s;
     transition-delay: 0s; }
     @media only screen and (max-width: 768px) {
-      /* line 235, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 239, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #collections .women_shoes {
         margin: 4% 0; } }
-  /* line 247, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 251, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .bag {
     background-image: url(asset/img/bag.jpg); }
-  /* line 251, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 255, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .glasses {
     background-image: url(asset/img/glasses.jpg); }
-  /* line 255, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 259, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #collections .text_collection {
     text-transform: uppercase;
     font-size: 0.8em;
@@ -1082,20 +1086,20 @@ a {
     position: absolute;
     top: 0; }
     @media only screen and (max-width: 768px) {
-      /* line 255, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 259, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #collections .text_collection {
         text-align: left; } }
-    /* line 267, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 271, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #collections .text_collection .trans_fleche {
       position: relative;
       left: 0px;
       transition-property: left;
       transition-duration: 1s;
       transition-delay: 0s; }
-    /* line 275, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 279, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #collections .text_collection .trans_fleche:hover {
       left: 20px; }
-    /* line 279, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 283, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #collections .text_collection a {
       font-size: 1em;
       font-weight: 400;
@@ -1106,14 +1110,14 @@ a {
 
 /*-------------Newsletter------------*/
 /*-----------------------------*/
-/* line 296, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 300, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 #newsletter {
   text-align: center;
   border-bottom-style: double;
   border-bottom-color: #dedede;
   clear: both;
   padding-top: 5%; }
-  /* line 302, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 306, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #newsletter input {
     width: 25%;
     padding: 15px;
@@ -1122,21 +1126,21 @@ a {
     text-transform: capitalize;
     margin: 3% 0 5% 0; }
     @media only screen and (max-width: 768px) {
-      /* line 302, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 306, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #newsletter input {
         width: 70%; } }
-  /* line 314, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 318, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #newsletter svg:not(:root).svg-inline--fa {
     position: relative;
     left: -50px;
     color: #636363; }
-  /* line 320, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 324, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #newsletter .plus2,
   #newsletter .plus1 {
     width: 10px;
     height: 3px;
     background: #636363; }
-  /* line 327, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 331, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #newsletter .plus2 {
     -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
@@ -1148,27 +1152,27 @@ a {
 
 /*-------------Product------------*/
 /*-----------------------------*/
-/* line 338, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 342, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 #productSection {
   height: 55%;
   margin-top: 4%; }
-  /* line 343, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 347, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #productSection > p {
     margin-bottom: 5%; }
-  /* line 347, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 351, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #productSection .textUnder_product {
     font-size: 0.8em; }
-    /* line 349, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 353, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #productSection .textUnder_product h4 {
       width: 50%;
       margin: 0;
       float: left; }
-    /* line 354, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 358, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #productSection .textUnder_product p {
       position: relative;
       top: -30px;
       margin: 0; }
-  /* line 361, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 365, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #productSection p.seeAll {
     margin: 0 auto;
     padding: 5px;
@@ -1177,95 +1181,95 @@ a {
     height: 30px;
     border: 1px solid #dedede;
     font-size: 13px; }
-    /* line 370, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 374, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #productSection p.seeAll a {
       color: #636363; }
-    /* line 376, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 380, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #productSection p.seeAll:hover {
       background-color: #dedede; }
 
 /*-------------blog------------*/
 /*-----------------------------*/
-/* line 387, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 391, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 #blog {
   height: 25%;
   border-bottom-style: double;
   border-bottom-color: #dedede; }
   @media only screen and (max-width: 768px) {
-    /* line 387, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 391, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #blog {
       height: 30%; } }
   @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    /* line 387, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 391, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #blog {
       height: 40%; } }
-  /* line 397, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 401, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog h3 {
     text-align: center;
     width: 100%; }
     @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      /* line 397, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 401, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog h3 {
         padding-top: 50px; } }
-  /* line 407, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 411, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .box01 {
     text-align: right;
     padding-right: 3%; }
     @media only screen and (max-width: 768px) {
-      /* line 407, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 411, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog .box01 {
         padding: 0;
         text-align: center; } }
     @media only screen and (min-width: 768px) and (max-width: 992px) {
-      /* line 407, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 411, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog .box01 {
         padding: 0;
         padding-top: 20px;
         text-align: center; } }
-    /* line 420, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 424, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #blog .box01 .line {
       left: 90%;
       position: relative; }
       @media only screen and (max-width: 768px) {
-        /* line 420, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+        /* line 424, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
         #blog .box01 .line {
           display: none; } }
-    /* line 428, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+    /* line 432, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
     #blog .box01 p {
       display: block; }
       @media only screen and (max-width: 768px) {
-        /* line 428, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+        /* line 432, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
         #blog .box01 p {
           display: none; } }
-  /* line 436, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 440, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .box02 {
     text-align: left;
     border-left: 2px dotted #dedede;
     padding-left: 3%;
     display: block; }
     @media only screen and (max-width: 768px) {
-      /* line 436, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 440, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog .box02 {
         display: none; } }
-  /* line 447, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 451, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .text_blog h4 {
     font-size: 1.1em;
     font-weight: 400;
     line-height: 1.5em;
     margin-top: 0; }
-  /* line 454, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 458, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .text_blog .line {
     width: 10%;
     height: 2px;
     background: #636363; }
-  /* line 460, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 464, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .text_blog p {
     font-weight: 400; }
-  /* line 464, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 468, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .text_blog span {
     font-weight: 700;
     text-align: right; }
-  /* line 470, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 474, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .blog_deco {
     width: 100%;
     display: inline-flex;
@@ -1273,10 +1277,10 @@ a {
     align-items: center;
     margin-top: 3%; }
     @media only screen and (max-width: 768px) {
-      /* line 470, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 474, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog .blog_deco {
         display: none; } }
-  /* line 481, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 485, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .carre02 {
     width: 10px;
     height: 10px;
@@ -1287,7 +1291,7 @@ a {
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 489, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 493, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog .carre01,
   #blog .carre03 {
     width: 5px;
@@ -1298,48 +1302,48 @@ a {
     -o-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg); }
-  /* line 497, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 501, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog svg.fa-arrow-left {
     left: 0%;
     top: 50%;
     position: absolute; }
     @media only screen and (max-width: 768px) {
-      /* line 497, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 501, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog svg.fa-arrow-left {
         top: 60%;
         left: 35%; } }
-  /* line 508, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 512, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   #blog svg.fa-arrow-right {
     position: absolute;
     top: 50%;
     left: 95%; }
     @media only screen and (max-width: 768px) {
-      /* line 508, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 512, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       #blog svg.fa-arrow-right {
         top: 60%;
         left: 60%; } }
 
 /*-------------footer----------*/
 /*-----------------------------*/
-/* line 524, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+/* line 528, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
 footer {
   padding: 4% 0 5%; }
-  /* line 526, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 530, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   footer .social {
     color: #dedede;
     margin-bottom: 2%; }
-  /* line 531, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 535, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   footer a {
     color: #212121;
     font-weight: bold; }
-  /* line 536, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 540, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   footer :nth-child(2) {
     margin: 0 10px; }
-  /* line 540, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+  /* line 544, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
   footer p {
     line-height: 1.5em; }
     @media only screen and (max-width: 768px) {
-      /* line 540, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
+      /* line 544, /Users/karentschanz/Sites/Pilow_v1/sass/_content.scss */
       footer p {
         padding-top: 10px;
         font-size: 0.6em; } }
